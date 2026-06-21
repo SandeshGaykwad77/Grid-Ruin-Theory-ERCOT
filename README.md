@@ -24,3 +24,32 @@ The analysis is entirely self-contained within the standard Python scientific st
 
 ```bash
 pip install numpy scipy pandas matplotlib requests
+
+
+Usage
+To execute the full pipeline from raw data to final figures:
+
+Ensure the data/ directory contains the required ERCOT and NASA CSVs (or run ingest_ercot.py with valid API keys).
+
+Execute the figures module to run the ruin theory mathematics, trigger the block-bootstrap Monte Carlo validation, and output the plots:
+
+Bash
+python figures.py
+Citation
+If you use this code or dataset in your research, please cite our paper:
+
+Gaykwad, S. (2026). Heavy-Tailed Renewable Droughts Collapse Exponential Storage Scaling Laws. Nature Energy (Under Review).
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+---
+
+### What to do next:
+1. Follow the steps to get the code uploaded and the README formatted.
+2. Go to **Zenodo.org**, upload your merged 10-year CSV data file, and get your **Data DOI**.
+3. Link your GitHub account to Zenodo to get your **Code DOI**.
+4. Paste both of those DOIs into your LaTeX manuscript and your GitHub README.
+
+Once those DOIs are in place, your paper is mathematically bulletproof, open-source compliant, and ready to be submitted to the editors at *Nature Energy*.
