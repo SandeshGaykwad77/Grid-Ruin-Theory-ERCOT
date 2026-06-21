@@ -24,6 +24,15 @@ To execute the full pipeline from raw data to the final mathematical figures:
 
 ---
 
+## 📊 Data Availability
+
+The complete, processed 10-year aligned dataset (87,648 hourly observations) generated and analyzed by this codebase is hosted separately to ensure permanent open-access. 
+
+* **Dataset:** Available on Zenodo at **https://doi.org/10.5281/zenodo.20785257**
+* **Code Archive:** A static snapshot of this codebase is archived on Zenodo at **https://doi.org/10.5281/zenodo.20785310**
+
+---
+
 ## 📝 Citation
 
 If you use this code, methodology, or dataset in your research, please cite our paper:
